@@ -26,8 +26,5 @@ func NewGetVideoLogic(ctx context.Context, svcCtx *svc.ServiceContext) *GetVideo
 func (l *GetVideoLogic) GetVideo(req *types.VideoReq) (resp *types.VideoRes, err error) {
 	// todo: add your logic here and delete this line
 
-	return &types.VideoRes{
-		Id:   "1",
-		Name: "张三",
-	}, nil
+	return
 }
